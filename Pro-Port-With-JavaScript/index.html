@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dylan Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container navbar">
+        <header>
+            <div class="logo">
+                <h1>Professional Portfolio</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Developer Skills</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text"></div>
+        <h1>
+            <span>H</span>
+            <span class="m-left">i</span>
+            <span class="m-left">,</span>
+            <br>
+            <span>I</span>
+            <span class="m-left">'</span>
+            <span class="m-left">m</span>
+            <span class="name">D</span>
+            <span class="m-left name">y</span>
+            <span class="m-left name">l</span>
+            <span class="m-left name">a</span>
+            <span class="m-left name">n</span>
+            <span class="m-left">,</span>
+
+            <span>A</span>
+            <br>
+            <span>F</span>
+            <span class="m-left">u</span>
+            <span class="m-left">l</span>
+            <span class="m-left">l</span>
+            <span class="name"> </span>
+            <span>S</span>
+            <span class="m-left">t</span>
+            <span class="m-left">a</span>
+            <span class="m-left">c</span>
+            <span class="m-left">k</span>
+            <span class="name"> </span>
+
+            <span>D</span>
+            <span class="m-left">e</span>
+            <span class="m-left">v</span>
+            <span class="m-left">e</span>
+            <span class="m-left">l</span>
+            <span class="m-left">o</span>
+            <span class="m-left">p</span>
+            <span class="m-left">e</span>
+            <span class="m-left">r</span>
+        </h1>
+        <div class="welcome">
+            <p>Welcome to my Professional Portfolio! Below are a culmination of my best works. Feel free to contact me!
+            </p>
+        </div>
+        <div class="profile-img">
+            <img src="images/wcci21520-0004.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="container aboutMe" id="aboutMe">
+        <h1>About Me</h1>
+        <div class="about-me-info">
+            <p>Hello My name is Frederick Vaca and I came from a small town in Ohio called New Philadelphia.There's not
+                much to tell but here's my story!</p>
+            <p>Before becoming a software developer I served four years in the Marine Corps as a Combat Engineer. During
+                the time I spent in the Marine Corps I went to five different countries and went on two deployments. I
+                was able to gain a lot of leadership knowledge and experience, as well as the ability to work well under
+                pressure!</p>
+        </div>
+        <img src="images/about me.png" alt="">
+    </div>
+
+    <div class="container education" id="education">
+        <h1>Education</h1>
+        <div class="education-info">
+            <h2>We Can Code It</h2>
+            <p>Major: Software Development</p>
+            <p>Graduation Year: 2020</p>
+
+            <br>
+            <h2>Kent State University</h2>
+            <p>Major: Business Management</p>
+            <p>Graduation Year: 2023</p>
+            <br>
+            <h2>Marine Corps Engineer School</h2>
+            <p></p>
+            <br>
+            <h2>Marine Corps School Non-Comissioned-Officer</h2>
+        </div>
+        <img src="images/school.bmp" alt="">
+    </div>
+
+    <div class="container skills" id="skills">
+        <h1>Developer Skills</h1>
+        <p class="skills-info">TechStack: Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS • Flexbox •
+            Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive
+            Design / Mobile • Relational Databases • Source Control / Git</p>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css">
+                </div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-react">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-react"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container work" id="work">
+        <h1>My Work</h1>
+        <div class="work-category">
+            <a href="https://github.com/DillyWilly112/virtual-pet">
+                <button id="virtualPet" onclick="showRequiredCategory(this)">Virtual Pet</button>
+            </a>
+            <a href="https://github.com/DillyWilly112/virtual-pet-amok">
+                <button id="virtualPetsAmok" onclick="showRequiredCategory(this)">Virtual Pets Amok</button>
+            </a>
+            <a href="https://github.com/DillyWilly112/reviews-site-fullstack">
+                <button id="Reviews" onclick="showRequiredCategory(this)">Reviews Website</button>
+            </a>
+        </div>
+
+        <div class="slider">
+            <div class="sliderChild">
+                <div class="imageCon">
+                    <h2>Virtual Pet</h2>
+                    <h3>Required Tasks</h3>
+                    <p>Create a virtual pet application. This is your version of a Tamagotchi or DigiPet! This might
+                        seem like a daunting task, but we can break it down.
+                        Think of which instance variables and methods you will need. We give suggestions below. Remember
+                        that instance variables represent the state of your pet. Methods represent the behavior of your
+                        pet, which would include its responses to you feeding or playing with it.
+                        Most games include what is called a game loop, a loop which updates everything in the game,
+                        representing the passage of time. We exit this loop when something happens that should cause the
+                        game to end. Include a tick() method (think clocks, not parasites) in your VirtualPet class
+                        representing the passage of a unit of time. This should do things like update instance variables
+                        of VirtualPet that are time dependent, such as hunger or thirst. You should call the tick() to
+                        represent the passage of time after each interaction with the user.
+                        There is always some confusion with this tick() method. It has some flexibility, what you are
+                        doing is changing the properties of your Virtual Pet at some rate in this method…every time this
+                        method is called, those properties specified in this method would update.</p>
+                </div>
+                <div class="imageCon">
+                    <h2>Virtual Pet Amok</h2>
+                    <h3>Required Tasks</h3>
+                    <h4>introduce ways to track:</h4>
+                    <p>cage cleanliness for organic dogs
+                        shelter litter box cleanliness for organic cats
+                        oil/maintenance level for robot animals</p>
+                    <h4>All classes:</h4>
+                    <p>Encapsulate all instance variables.
+                        Assign appropriate visibility modifiers to methods only used internally by a class or within a
+                        class hierarchy.</p>
+                    <h4>VirtualPet class and related subclasses/interfaces:</h4>
+                    <p>create a model that allows for dogs and cats, either of which may be robotic
+                        introduce an attribute (instance variable) representing overall health that is updated as a
+                        result of other attributes moving in a negative or positive direction, influencing happiness</p>
+                    <h5>introduce methods that allow for:</h5>
+                    <p>oiling robotic pets
+                        walking dogs, decreasing the likelihood that organic dogs will soil their cages, while
+                        increasing happiness in all dogs</p>
+                    <h5>do not allow:</h5>
+                    <p>feeding/watering robotic pets
+                        oiling organic pets
+                        modify the tick method to return a value indicating the amount of waste a pet creates, which
+                        should contribute to either (optionally, create accessor methods to retrieve these values
+                        instead):
+                        amount of waste in the litter box
+                        amount of waste in an individual dog cage</p>
+                    <h4>VirtualPetShelter class:</h4>
+                    <h5>introduce methods that allow for:</h5>
+                    <p>oiling/maintaining all robotic pets
+                        cleaning dog cages
+                        emptying the litterbox
+                        modify existing methods to only feed/water pets that are not robotic</p>
+                    <h4>VirtualPetShelterApp class:</h4>
+                    <h5>add options to:</h5>
+                    <p>walk all dogs
+                        clean dog cages
+                        clean the shelter litterbox
+                        oil all robotic pets</p>
+                </div>
+                <div class="imageCon">
+                    <h2>Reviews Website</h2>
+                    <h3>Required Tasks</h3>
+                    <p>Create/configure a Spring Boot/MVC application.
+                        Create a Review class for the content of reviews. Its instance variables (attributes) should
+                        include:
+                        id (make this of type long – you’ll find out why later) – just use arbitrary, unique numbers for
+                        these ids
+                        title
+                        image url
+                        review category
+                        content
+                        whatever other things you’d like to include. Some ideas:
+                        date
+                        description/synopsis
+                        <h4>Create a ReviewRepository class:</h4>
+                        <p>This class should be annotated properly so that it can be injected into ReviewsController.
+                            It should have a constructor that creates your Review instances and populates a Map that
+                            stores your reviews, using each review’s id as the map key.
+                            It should have a method to find all reviews
+                            It should have a method to find one review by id</p>
+                        <h4>Create a ReviewsController class.</h4>
+                        <p>apply proper annotation
+                            It should inject…something appropriately
+                            It should have a method mapped to a url that puts all of your reviews into the model,
+                            forwarding to a “reviews” template.
+                            It should have a method mapped to a url including an id parameter that puts one of your
+                            reviews into the model, forwarding to a “review” template. This method should expect an “id”
+                            query parameter in order to select a specific review.
+                            Place images you use into your src/main/resources/static/images folder and link to them
+                            there. Example: if your image is in src/main/resources/static/images/foo.jpg, you would
+                            reference it in your application as /images/foo.jpg.
+                            Use your html/css-fu to style to your pages consistently and to make them appealing.</p>
+                </div>
+                <div class="imageCon">
+                    <h2>Virtual Pet</h2>
+                    <h3>Required Tasks</h3>
+                    <p>Create a virtual pet application. This is your version of a Tamagotchi or DigiPet! This might
+                        seem like a daunting task, but we can break it down.
+                        Think of which instance variables and methods you will need. We give suggestions below. Remember
+                        that instance variables represent the state of your pet. Methods represent the behavior of your
+                        pet, which would include its responses to you feeding or playing with it.
+                        Most games include what is called a game loop, a loop which updates everything in the game,
+                        representing the passage of time. We exit this loop when something happens that should cause the
+                        game to end. Include a tick() method (think clocks, not parasites) in your VirtualPet class
+                        representing the passage of a unit of time. This should do things like update instance variables
+                        of VirtualPet that are time dependent, such as hunger or thirst. You should call the tick() to
+                        represent the passage of time after each interaction with the user.
+                        There is always some confusion with this tick() method. It has some flexibility, what you are
+                        doing is changing the properties of your Virtual Pet at some rate in this method…every time this
+                        method is called, those properties specified in this method would update.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container contact" id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="Phone Number">
+            <input type="email" placeholder="Email" enabled>
+            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit"></form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2020 CopyRight. All Rights Reserved</p>
+    </footer>
+
+
+    <script src="ScrollMagic.min.js"></script>
+    <script src="animation.gasp.min.js"></script>
+    <script src="TimelineLite.min.js"></script>
+    <script src="TweenMax.min.js"></script>
+    <script src="CSSPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
